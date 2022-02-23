@@ -1,0 +1,19 @@
+# IntelliJ
+.idea
+*.iml
+
+# Visual Studio Code
+.vscode
+
+# Node
+node_modules
+
+# App specific
+.env
+build
+
+# Test dump
+docs/.trash
+
+# Sonarqube local scans
+.scannerwork
