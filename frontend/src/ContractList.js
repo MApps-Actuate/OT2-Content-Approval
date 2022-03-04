@@ -124,7 +124,7 @@ export default class ContractList extends React.Component {
   render() {
     return (
       <div>
-        <div className='content-header'>All contracts</div>
+        <div className='content-header'>All content items</div>
 
         <TableContainer component={Paper}>
           <Table size="small" aria-label="a dense table">
