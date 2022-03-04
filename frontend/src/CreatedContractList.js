@@ -43,6 +43,8 @@ class CreatedContractList extends React.Component {
 			openContractDetails: false,
 			selectedContract: { properties: {} },
 			openAddContract: false,
+			openAddContentFolder: false,
+			openAddContentText: false,
 			addNumberOfContracts: 0,
 			pageNumber: 0,
 			count: -1,
@@ -203,11 +205,23 @@ class CreatedContractList extends React.Component {
 			openAddContract: true
 		});
 	}
+	openContentFolderDialog() {
+		this.setState({
+			openAddContentFolder: true
+		});
+	}
+	openContentTextDialog() {
+		this.setState({
+			openAddContentText: true
+		});
+	}
 
 	render() {
 		return (
 			<div>
-				<Button variant="contained" color="primary" disabled={!this.props.username} startIcon={<AddIcon />} onClick={() => this.openContractDialog()} style={{ margin: "0.25rem" }}>Add</Button>
+				<Button variant="contained" color="primary" disabled={!this.props.username} startIcon={<AddIcon />} onClick={() => this.openContentFolderDialog()} style={{ margin: "0.25rem" }}>Add Folder</Button>
+				<Button variant="contained" color="primary" disabled={!this.props.username} startIcon={<AddIcon />} onClick={() => this.openContractDialog()} style={{ margin: "0.25rem" }}>Add Document</Button>
+				<Button variant="contained" color="primary" disabled={!this.props.username} startIcon={<AddIcon />} onClick={() => this.openContentTextDialog()} style={{ margin: "0.25rem" }}>Add Text</Button>
 				<div className='content-header'>All created content</div>
 				<TableContainer component={Paper}>
 					<Table size="small" aria-label="a dense table">

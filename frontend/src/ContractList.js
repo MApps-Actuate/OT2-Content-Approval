@@ -136,7 +136,7 @@ export default class ContractList extends React.Component {
                 <TableCell align="left">Value</TableCell>
                 <TableCell align="left">Risk classification</TableCell>
                 <TableCell align="left">View document</TableCell>
-                <TableCell align="left" />
+                <TableCell align="left">Publish</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -151,7 +151,7 @@ export default class ContractList extends React.Component {
                     <Button size="small" variant="outlined" color="primary" onClick={() => { this.openDocumentDialogView(row._links['urn:eim:linkrel:download-media'].href) }}>Original</Button>
                   </TableCell>
                   <TableCell align="left">
-                    <IconButton size="small" variant="outlined" color="primary" title="Show details" onClick={() => { this.showDetails(row) }}>
+                    <IconButton size="small" variant="outlined" color="primary" title="Publish to Core Content" onClick={() => { this.showDetails(row) }}>
                       <ArrowForwardIosIcon />
                     </IconButton>
                   </TableCell>
