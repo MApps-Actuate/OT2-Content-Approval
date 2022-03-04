@@ -84,9 +84,9 @@ class App extends React.Component {
           <Tabs orientation="horizontal"
             value={this.state.value}
             onChange={this.handleChange}>
-            <Tab className="tab-caption" label="Created Contracts" />
+            <Tab className="tab-caption" label="Created Content" />
             <Tab className="tab-caption" label="Manager Tasks" />
-            <Tab className="tab-caption" label="All Contracts" />
+            <Tab className="tab-caption" label="All Content" />
           </Tabs>
           <TabPanel value={this.state.value} index={0}>
             <CreatedContractList />

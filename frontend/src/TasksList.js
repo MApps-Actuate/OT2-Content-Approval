@@ -183,7 +183,7 @@ class TasksList extends React.Component {
           <Table size="small" aria-label="a dense table">
             <TableHead>
               <TableRow>
-                <TableCell align="left">Contract name</TableCell>
+                <TableCell align="left">Content name</TableCell>
                 <TableCell align="left">Creation date</TableCell>
                 <TableCell align="left">Value</TableCell>
                 <TableCell align="left">Risk classification</TableCell>

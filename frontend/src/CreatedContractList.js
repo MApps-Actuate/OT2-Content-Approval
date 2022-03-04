@@ -208,12 +208,12 @@ class CreatedContractList extends React.Component {
 		return (
 			<div>
 				<Button variant="contained" color="primary" disabled={!this.props.username} startIcon={<AddIcon />} onClick={() => this.openContractDialog()} style={{ margin: "0.25rem" }}>Add</Button>
-				<div className='content-header'>All created contracts</div>
+				<div className='content-header'>All created content</div>
 				<TableContainer component={Paper}>
 					<Table size="small" aria-label="a dense table">
 						<TableHead>
 							<TableRow>
-								<TableCell>Contract name</TableCell>
+								<TableCell>Content name</TableCell>
 								<TableCell align="left">Creation date</TableCell>
 								<TableCell align="left">Value</TableCell>
 								<TableCell align="left">Risk classification</TableCell>

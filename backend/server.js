@@ -231,7 +231,7 @@ app.post("/api/cms/instances/:category/:type", async (req, res) => {
 });
 
 /**
- * Creates a new instance of a workflow in the Workflow service which in this context will request a contract approval.
+ * Creates a new instance of a workflow in the Workflow service which in this context will request a content approval.
  */
 app.post("/api/workflow/createinstance", async (req, res) => {
   try {

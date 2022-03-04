@@ -1,4 +1,4 @@
-OT2 Contract Approval Demo Application
+OT2 Content Approval Demo Application
 --------
 
 This is a demo application to demonstrate how to consume OT2 services.

@@ -39,7 +39,7 @@ class Header extends React.Component {
     render() {
         return <header className="page-header">
             <div className="logo logo-ot-appworks" />
-            <div className="header-title">Contract Approval</div>
+            <div className="header-title">Content Approval</div>
             <div className="header-menu">
                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={event => this.handleClick(event)}>
                     {this.props.username}

@@ -89,7 +89,7 @@ export default class TaskDetails extends React.Component {
           <TextField
             margin="dense"
             id="cmsName"
-            label="Contract name"
+            label="Content name"
             value={this.getContractName(this.state.selectedTask)}
             type="text"
             fullWidth

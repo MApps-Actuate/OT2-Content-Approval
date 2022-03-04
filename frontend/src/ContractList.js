@@ -130,7 +130,7 @@ export default class ContractList extends React.Component {
           <Table size="small" aria-label="a dense table">
             <TableHead>
               <TableRow>
-                <TableCell>Contract name</TableCell>
+                <TableCell>Content name</TableCell>
                 <TableCell align="left">Creation date</TableCell>
                 <TableCell align="left">Status</TableCell>
                 <TableCell align="left">Value</TableCell>
